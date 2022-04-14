@@ -10,8 +10,8 @@
 	<title>Portfolio Details</title>
 </head>
 <body>
-	
-	 <nav class="navbar navbar-expand-md navbar-dark bg-primary fixed-top">
+	<!-- header -->
+	 <nav class="navbar navbar-expand-md navbar-dark fixed-top">
 	 <div class="container-xxl">
 	  <span class="nav-logo h3 mt-1 text-light">Devfolio</span>
 	  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#toggleMenu" aria-controls="toggleMenu" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,7 +20,7 @@
 	   <div class="collapse navbar-collapse" id="toggleMenu">
 	   	<ul class="navbar-nav ms-auto">
 	   	<li>
-	   		<a href="#" class="nav-link text-light">HOME</a>
+	   		<a href="#contact" class="nav-link text-light">HOME</a>
 	   	</li>
 	   		<li>
 	   		<a href="#" class="nav-link text-light">ABOUT</a>
@@ -34,6 +34,17 @@
 	   	    <li>
 	   		<a href="#" class="nav-link text-light">BLOG</a>
 	   	  </li>
+	   	   <li class="dropdown">
+	   		<a href="#" class="nav-link text-light dropdown-toggle" id="dropdwons" data-bs-toggle="dropdown">DROP DOWN</a>
+	   		<ul class="dropdown-menu" aria-labelledby="dropdowns">
+	   		 <li><a href="#" class="dropdown-item">Drop Down 1</a></li>
+             <li><a href="#" class="dropdown-item">Drop Down 2</a></li>
+             <li><a href="#" class="dropdown-item">Drop Down 3</a></li>
+             <li><a href="#" class="dropdown-item">Drop Down 4</a></li>
+             <li><a href="#" class="dropdown-item">Drop Down 5</a></li>
+             <li><a href="#" class="dropdown-item">Drop Down 6</a></li>
+	   		</ul>
+	   	  </li>
 	   	  <li>
 	   		<a href="#" class="nav-link text-light">CONTACT</a>
 	   	  </li>
@@ -41,8 +52,88 @@
 	   </div>
 	  </div>
 	 </nav>
-	
-	
+	 <!-- End header Section -->
+	 <!-- body -->
+	  <div class="header">
+	  	<div class="row justify-content-center my-5">
+	  	 <div class="col-md-5 text-center ">
+	  	  <h1 class="text-light">PORTFOLIO DETAILS</h1>
+	  	  <p class="text-light">Home / <span>Portfolio Details</span></p>
+	  	 </div>
+	  	</div>
+	  </div>
+	 <!-- End Body Section -->
+	 <!-- Portfolio-detail -->
+	 <section id="portfolio-detail" class="portfolio-detail">
+	 <div class="container">
+	 <div class="row gy-4">
+	  <div class="col-lg-8">
+	  <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+	  <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+     </div>
+      <div class="carousel-inner justify-content-start">
+      <div class="carousel-item active" data-bs-interval="1000">
+      <img src="./images/port-1.jpg" class="d-block img-fluid rounded " alt="port-1">
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+      <img src="./images/port-2.jpg" class="d-block img-fluid rounded" alt="port-2">
+      </div>
+      <div class="carousel-item">
+      <img src="./images/port-3.jpg" class="d-block img-fluid rounded" alt="port-3">
+      </div>
+      </div>
+     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+     <span class="visually-hidden">Previous</span>
+     </button>
+     <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+    </button>
+     </div>
+     </div>
+      <div class="col-lg-4">
+       <div class="port-info">
+      <div class="portfolio-info my-5">
+       <h3>Project information</h3>
+       <ul>
+       	<li><strong>Category</strong>: Web Design</li>
+       	<li><strong>Client</strong>: ASU Comapany</li>
+       	<li><strong>Project date</strong>: 01 April, 2022</li>
+       	<li><strong>Project URL</strong>: <a href="#" class="text-decoration-none text-dark">www.example.com</a></li>
+       </ul>
+      </div>
+      </div>
+       <div class="portfolio-discription">
+       	<h3 class="mb-3 fw-bold">This is an example of portfolio detail</h3>
+         <p>Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.</p>
+       </div>
+      </div>
+     </div>
+      <footer>
+      	<div class="container">
+      	 <div class="row">
+      	  <div class="col-sm-12 text-center my-2">
+      	   <div class="copyright-box">
+      	   	<div class="copyright">
+      	   	 <h6>© Copyright <strong>DevFolio</strong>. All Rights Reserved</h6>
+      	   	 <p>Designed by BootstrapMade</p>
+      	   	</div>
+      	   </div>
+      	  </div>
+      	 </div>
+      	</div>
+      	</footer>
+      </div>
+</section>
+   <div class="back-top ms-2">
+   	 <a href="#" class="back-to-top d-flex align-items-center text-light justify-content-center active"><i class=" bi bi-arrow-up-short"></i>
+     </a>
+   </div>
+   <!-- End Portfolio-detail -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
   </script>
 </body>
