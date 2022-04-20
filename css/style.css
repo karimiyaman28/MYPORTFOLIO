@@ -10,7 +10,7 @@ body{
 @media screen and (max-width: 500px) {
 	body{
 		overflow-x: hidden;
-		
+
 	}
 }
 
@@ -25,11 +25,14 @@ body{
 	height: 550px;
 	background-repeat: no-repeat;
 	background-size: cover;
+	display: flex;
+	justify-content:center;
+	align-items: center;
 
 
 }
 .image h2{
-	margin-top: 150px;
+	margin-top: 100px;
 }
 
 @media screen and (max-width: 1000px) {
@@ -46,21 +49,21 @@ body{
 
 .img{
 	position: absolute;
-	top: 91%;
+	top: 94%;
 	left: 16%;
 	transform: translate(-50%, -50%);
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 500px) {
 	.img{
 		position: absolute;
-		top: 77%;
+		top: 79%;
 		left: 23%;
 		transform: translate(-50%, -50%);
 	}
 }
 .about-info{
 	margin-left: -280px;
-	margin-top: -22px;
+	margin-top: -17px;
 }
 .about-info ul{
 	list-style: none;
@@ -122,7 +125,9 @@ body{
    	margin-top: -6px;
    }
    .bars{
-   	width: 430px;
+   	width: 375px;
+   	float: left;
+   	text-align: center;
    }
    .html{
    	width: 87%;
@@ -145,7 +150,7 @@ body{
 }
 #about-title{
 	font-size: 2rem;
-	margin-bottom: 41px;
+	margin-bottom: 25px;
 
 }
 #about-title::after{
@@ -170,11 +175,11 @@ body{
 	}
 	.about-body #about-title{
 		position: absolute;
-		top: -14%;
+		top: -16%;
 	}
-    .about-body #about-parag{
+     .about-body #about-parag{
     	position: relative;
-    	margin-top: 278px;
+    	margin-top: 380px;
 
     }
 }
