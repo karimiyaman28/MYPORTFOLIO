@@ -1,16 +1,22 @@
-*{
-	margin-top: 0;
-	padding:0;
-}
+
 body{
 	background-color: #f5f5f5;
     overflow-x: hidden;
 	
 }
+
 @media screen and (max-width: 500px) {
 	body{
 		overflow-x: hidden;
+	}
+	.navbar{
+		overflow-x: hidden;
+		
 
+	}
+	.navbar-toggler{
+		overflow-x: hidden;
+		margin-right: 11px;
 	}
 }
 
@@ -26,8 +32,9 @@ body{
 	background-repeat: no-repeat;
 	background-size: cover;
 	display: flex;
-	justify-content:center;
-	align-items: center;
+    justify-content: center;
+   align-items: center;
+   flex-direction: column;
 
 
 }
@@ -35,35 +42,35 @@ body{
 	margin-top: 100px;
 }
 
+
 @media screen and (max-width: 1000px) {
 	.image{
-		height: 450px;
+		width: 100%;
 		background-position: center;
+		overflow-x: hidden;
 	}
 	.image h2{
 		margin-top: 130px;
 	}
 }
+.about-mf{
+	padding-top: 4rem;
+}
 
-
-
-.img{
+.img-fluid{
 	position: absolute;
-	top: 94%;
-	left: 16%;
-	transform: translate(-50%, -50%);
+	top: 89%;
+	left: 11%;
+	float: left;
+	overflow:hidden;
+	height: auto;
 }
-@media screen and (max-width: 500px) {
-	.img{
-		position: absolute;
-		top: 79%;
-		left: 23%;
-		transform: translate(-50%, -50%);
-	}
-}
+
+
+
 .about-info{
-	margin-left: -280px;
-	margin-top: -17px;
+	position:relative;
+	left: -60%
 }
 .about-info ul{
 	list-style: none;
@@ -74,10 +81,20 @@ body{
 	font-size: 18px;
 	line-height: 2.4em;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 500px) {
+		.about-mf{
+	      padding-top: 2rem;
+  }
+	.img-fluid{
+		position: absolute;
+		top: 83%;
+		left: 9%;
+		
+	}
 	.about-info{
-		margin-left: -58px;
-		margin-top: 150px;
+		position: relative;
+		left: -14%;
+		margin-top: 178px;
 
 	}
 }
@@ -95,7 +112,7 @@ body{
 	
 }
 .bars{
-	width: 590px;
+	width: 560px;
 	height: 11px;
 	background-color: #cde1f8;
 	margin-bottom: 13px;
@@ -119,13 +136,13 @@ body{
 }
 @media screen and (max-width: 600px) {
    .skill-mf{
-   	margin-left: -27px;
+   	margin-left: -21px;
    }
    #title{
    	margin-top: -6px;
    }
    .bars{
-   	width: 375px;
+   	width: 410px;
    	float: left;
    	text-align: center;
    }
@@ -144,9 +161,10 @@ body{
 }
 .about-me{
 	position: absolute;
-	top: 112%;
+	top: 117%;
 	left: 68%;
 	transform: translate(-50%, -50%);
+	
 }
 #about-title{
 	font-size: 2rem;
@@ -168,18 +186,22 @@ body{
 
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
 	.about-me{
 		position: relative;
-		left: 43%;
+		left: 44%;
+	
 	}
 	.about-body #about-title{
 		position: absolute;
 		top: -16%;
+		left: 1%;
+
 	}
      .about-body #about-parag{
     	position: relative;
-    	margin-top: 380px;
+    	margin-top: 280px;
+
 
     }
 }
