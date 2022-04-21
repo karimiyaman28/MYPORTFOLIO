@@ -203,7 +203,7 @@ body{
 	}
      .about-body #about-parag{
     	position: relative;
-    	margin-top: 280px;
+    	margin-top: 360px;
 
 
     }
@@ -351,29 +351,29 @@ section{
 
 .work-content{
 	margin-top: 19px;
-	margin-left: 30px;
+	margin-left: 20px;
 	padding-bottom: 40px;
 }
 
 .w-title{
 	font-size: 1.2rem;
-	margin-left: -75px;
+	margin-left: -50px;
 	
 	
 }
 .w-info{
-	margin-right: 63px;
+	margin-right: 70px;
 	margin-top: 10px;
 }
 
 
 .w-info{
 	font-size: 0.8rem;
-	margin-left: -40px;
+	margin-left: 30px;
 
 }
 .w-link{
-	margin-left: 335px;
+	margin-left: 350px;
 	margin-top: -50px;
 	font-size: 2.5rem;
 	color: #0078ff;
@@ -391,7 +391,7 @@ section{
 
 	}
 	.w-info{
-		margin-left: -234px;
+		margin-left: -190px;
 	}
 
 }
@@ -501,7 +501,7 @@ button{
      margin-top: 4px;
 }
 .card-title{
-	margin-left: -115px;
+	margin-left: -110px;
 	font-size: 1.3rem;
 }
 .card-title a{
@@ -534,12 +534,12 @@ button{
 .ramin{
 	width: 32px;
 	height: 32px;
-	margin-right: 400px;
+	margin-right: 390px;
 	margin-top: -5px;
 }
 .author{
 	font-size: 18px;
-	margin-right: 190px;
+	margin-right: 170px;
 	margin-top: -31px;
 }
 .post-date{
@@ -556,8 +556,8 @@ button{
 	}
 	.author{
 	font-size: 18px;
-	margin-right: 245px;
-	margin-top: -31px;
+	margin-right: 209px;
+	margin-top: -30px;
 }
 }
 .contact-sic{
