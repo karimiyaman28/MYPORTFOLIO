@@ -20,6 +20,7 @@ body{
 
     body {
       padding:0;
+      overflow-x: hidden;
     }
 
     .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
