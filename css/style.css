@@ -6,21 +6,28 @@ body{
 }
 
 @media screen and (max-width: 500px) {
-	body{
-		overflow-x: hidden;
-	}
-	.navbar{
-		overflow-x: hidden;
-		
-
-	}
+	
 	.navbar-toggler{
-		overflow-x: hidden;
 		margin-right: 11px;
 	}
 }
 
+@media (max-width: 978px) {
+    .container {
+      padding:0;
+      margin:0;
+    }
 
+    body {
+      padding:0;
+    }
+
+    .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
+      margin-left: 0;
+      margin-right: 0;
+      margin-bottom:0;
+    }
+}
 .navbar-nav .nav-item{
 	font-size: 17px;
 }
@@ -54,23 +61,24 @@ body{
 	}
 }
 .about-mf{
-	padding-top: 4rem;
+	padding-top: 2rem;
 }
 
 .img-fluid{
 	position: absolute;
-	top: 89%;
-	left: 11%;
-	float: left;
-	overflow:hidden;
-	height: auto;
+	top: 81%;
+	left: 9%;
+   
+	
 }
 
 
 
 .about-info{
 	position:relative;
-	left: -60%
+	margin-top: 54px;
+	transform: translate(-50%, -50%);
+    right: 13%;
 }
 .about-info ul{
 	list-style: none;
@@ -82,25 +90,17 @@ body{
 	line-height: 2.4em;
 }
 @media screen and (max-width: 500px) {
-		.about-mf{
-	      padding-top: 2rem;
-  }
-	.img-fluid{
-		position: absolute;
-		top: 83%;
-		left: 9%;
 		
-	}
 	.about-info{
 		position: relative;
-		left: -14%;
-		margin-top: 178px;
-
+		right: -33%;
+		margin-top: 250px;
 	}
 }
 
 #title{
-	margin-top: -19px;
+	margin-top: -90px;
+	margin-left: -20px;
 	font-size: 17px;
 }
 .skill-mf{
@@ -108,6 +108,7 @@ body{
 }
 .skillsbar{
 	margin-top: 15px;
+	margin-left: -20px;
 	
 	
 }
@@ -136,13 +137,14 @@ body{
 }
 @media screen and (max-width: 600px) {
    .skill-mf{
-   	margin-left: -21px;
+   	margin-left: -14px;
+   	margin-top: -70px;
    }
    #title{
    	margin-top: -6px;
    }
    .bars{
-   	width: 410px;
+   	width: 390px;
    	float: left;
    	text-align: center;
    }
@@ -189,7 +191,7 @@ body{
 @media screen and (max-width: 900px) {
 	.about-me{
 		position: relative;
-		left: 44%;
+		left: 40%;
 	
 	}
 	.about-body #about-title{
