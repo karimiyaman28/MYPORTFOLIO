@@ -8,7 +8,7 @@ body{
 @media screen and (max-width: 500px) {
 	
 	.navbar-toggler{
-		margin-right: 4px;
+		margin-right: 1px;
 	}
 }
 
@@ -64,18 +64,19 @@ body{
 }
 .img-fluid{
 	margin-top: -4px;
+	position: relative;
+	left: -1%;
 }
 
 .about-info{
-	position: absolute;
-	top: 23%;
-	left: 29%;
-	transform: translate(-50%,-50%);
+	margin-top: -9px;
+	margin-left: -290px;
 
 }
 .about-info ul {
-	line-height: 2.7em;
+	line-height: 2.5em;
     list-style: none;
+
 }
 .about-info li span {
 	font-size: 1.1rem;
@@ -144,8 +145,8 @@ body{
 }
 @media screen and (max-width: 600px) {
    .skill-mf{
-   	margin-left: -10px;
-   	margin-top: 200px;
+   	margin-left: -21px;
+   	margin-top: 5px;
    	
    }
    .skillsbar{
@@ -176,7 +177,7 @@ body{
 
 .about-me{
 	position: absolute;
-	top: 105%;
+	top: 107%;
 	left: 64%;
 	z-index: 2;
 	transform: translate(-50%, -50%);
@@ -198,26 +199,28 @@ body{
 @media screen and (max-width: 900px) {
 	.about-mf .box-shadow-full {
     padding-top: 4rem;
-    padding-bottom: 54rem;
+    padding-bottom: 56rem;
     z-index: 2;
    }
+   .img-fluid{
+	margin-top: -15px;
+
+}
    .about-info{
-	position: absolute;
-	top: 25%;
-	left: 28%;
-	transform: translate(-50%,-50%);
+	margin-left: -33px;
+	margin-top: 10px;
 
   }
    .about-me{
 	position: relative;
-	left: 49%;
+	left: 48%;
 	z-index: 2;
 	transform: translate(-50%, -50%);
 	
    }
    #about-title{
 	font-size: 2rem;
-	margin-top: -380px;
+	margin-top: -370px;
 	margin-bottom: 40px;
  }
 
