@@ -8,7 +8,7 @@ body{
 @media screen and (max-width: 500px) {
 	
 	.navbar-toggler{
-		margin-right: 11px;
+		margin-right: 4px;
 	}
 }
 
@@ -56,60 +56,66 @@ body{
 		width: 100%;
 		background-position: center;
 		overflow-x: hidden;
+		height: 600px;
 	}
 	.image h2{
 		margin-top: 130px;
 	}
 }
-.about-mf{
-	padding-top: 2rem;
-}
-
 .img-fluid{
-	position: absolute;
-	top: 81%;
-	left: 9%;
-   
-	
+	margin-top: -4px;
 }
-
-
 
 .about-info{
-	position:relative;
-	margin-top: 54px;
-	transform: translate(-50%, -50%);
-    right: 13%;
+	position: absolute;
+	top: 23%;
+	left: 29%;
+	transform: translate(-50%,-50%);
+
 }
-.about-info ul{
+.about-info ul {
+	line-height: 2.7em;
+    list-style: none;
+}
+.about-info li span {
+	font-size: 1.1rem;
 	list-style: none;
 
 }
-.about-info li span{
-	font-weight: bold;
-	font-size: 18px;
-	line-height: 2.4em;
+.about-mf{
+	padding-top: 2rem;
+	
 }
-@media screen and (max-width: 500px) {
-		
-	.about-info{
-		position: relative;
-		right: -33%;
-		margin-top: 250px;
-	}
+.about-mf{
+	box-sizing: border-box;
+}
+.about-mf .box-shadow-full {
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+    z-index: 2;
+   }
+
+.box-shadow-full {
+    padding: 3rem 1.25rem;
+    position: relative;
+    background-color: #fff;
+    margin-bottom: 3rem;
+    z-index: 2;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 13%), 0 2px 5px 0 rgb(0 0 0 / 29%);
 }
 
 #title{
-	margin-top: -90px;
-	margin-left: -20px;
-	font-size: 17px;
+	margin-top: 29px;
+	margin-left: 15px;
+	font-size: 1.1rem;
 }
 .skill-mf{
 	margin-top: 4px;
 }
 .skillsbar{
 	margin-top: 15px;
-	margin-left: -20px;
+	margin-left: 15px;
+	
 	
 	
 }
@@ -138,11 +144,15 @@ body{
 }
 @media screen and (max-width: 600px) {
    .skill-mf{
-   	margin-left: -14px;
-   	margin-top: -70px;
+   	margin-left: -10px;
+   	margin-top: 200px;
+   	
+   }
+   .skillsbar{
+      float: left;
    }
    #title{
-   	margin-top: -6px;
+   	margin-top: -4px;
    }
    .bars{
    	width: 390px;
@@ -162,52 +172,57 @@ body{
    	width: 90%;
    }
 }
+
+
 .about-me{
 	position: absolute;
-	top: 117%;
-	left: 68%;
+	top: 105%;
+	left: 64%;
+	z-index: 2;
 	transform: translate(-50%, -50%);
-	
 }
 #about-title{
 	font-size: 2rem;
-	margin-bottom: 25px;
+	margin-bottom: 40px;
+}
+#about-title:before{
+	content: '';
+	position: absolute;
+	width: 90px;
+	height: 3px;
+	border-bottom: 3px solid #0078ff;
+	margin-top: 46px;
+	left: 1%;
 
 }
-#about-title::after{
-    content: '';
-    width: 103px;
-    position: absolute;
-    height: 3px;
-    margin-top: 47px;
-    border-bottom: 3.4px solid #0078ff;
-    left: 0%;
-}
-.about-me p{
-	font-weight: 700px;
-}
-
-
-
 @media screen and (max-width: 900px) {
-	.about-me{
-		position: relative;
-		left: 40%;
+	.about-mf .box-shadow-full {
+    padding-top: 4rem;
+    padding-bottom: 54rem;
+    z-index: 2;
+   }
+   .about-info{
+	position: absolute;
+	top: 25%;
+	left: 28%;
+	transform: translate(-50%,-50%);
+
+  }
+   .about-me{
+	position: relative;
+	left: 49%;
+	z-index: 2;
+	transform: translate(-50%, -50%);
 	
-	}
-	.about-body #about-title{
-		position: absolute;
-		top: -16%;
-		left: 1%;
+   }
+   #about-title{
+	font-size: 2rem;
+	margin-top: -380px;
+	margin-bottom: 40px;
+ }
 
-	}
-     .about-body #about-parag{
-    	position: relative;
-    	margin-top: 360px;
-
-
-    }
 }
+
 
 .service-title{
 	font-size: 3rem;
