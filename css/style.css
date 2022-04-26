@@ -7,9 +7,7 @@ body{
 
 @media screen and (max-width: 500px) {
 	
-	.navbar-toggler{
-		margin-right: 1px;
-	}
+	
 }
 
 @media (max-width: 978px) {
@@ -223,12 +221,20 @@ body{
 	margin-top: -370px;
 	margin-bottom: 40px;
  }
+ .service-title{
+ 	margin-top: -70px;
+ }
+ 
 
 }
 
 
 .service-title{
 	font-size: 3rem;
+
+}
+.service-subtitle{
+	text-align: center;
 }
 .service-subtitle:before{
 	content: '';
@@ -236,7 +242,7 @@ body{
 	width: 46px;
 	height: 3px;
 	border-bottom: 4px solid #0078ff;
-	margin-top: 46px;
+	margin-top: 50px;
 	left: 48%;
 
 }
@@ -283,6 +289,18 @@ body{
 	color: #fff;
     background-color: #0078ff;
     box-shadow: 0 0 0 10px #cde1f8;
+}
+@media screen and (max-width: 900px) {
+	.service-subtitle:before{
+	content: '';
+	position: absolute;
+	width: 46px;
+	height: 3px;
+	border-bottom: 4px solid #0078ff;
+	margin-top: 53px;
+	left: 44%;
+
+}
 }
 .counter{
 	height: 400px;
@@ -342,8 +360,8 @@ body{
     border-bottom: 4px solid #0078ff;
     width: 46px;
     height: 3px;
-    margin-top: 94px;
-    left: 48.3%;
+    margin-top: 97px;
+    left: 48%;
 
  }
 section{
@@ -375,31 +393,34 @@ section{
 
 .w-title{
 	font-size: 1.2rem;
-	margin-left: -50px;
+	
 	
 	
 }
 .w-info{
-	margin-right: 70px;
-	margin-top: 10px;
+	font-size: 13px;
 }
 
 
-.w-info{
-	font-size: 0.8rem;
-	margin-left: 30px;
-
-}
 .w-link{
-	margin-left: 350px;
-	margin-top: -50px;
 	font-size: 2.5rem;
 	color: #0078ff;
+	position: relative;
+	left: 395%;
+	margin-top: -40px;
 }
+
 @media screen and (max-width: 1000px) {
-	.work-box{
-		
-	}
+	.text-title::before{
+    content: '';
+    position: absolute;
+    border-bottom: 4px solid #0078ff;
+    width: 46px;
+    height: 3px;
+    margin-top: 97px;
+    left: 44%;
+
+ }
 	.work-content{
 		margin-top: -1px;
 	}
@@ -408,9 +429,13 @@ section{
 
 
 	}
-	.w-info{
-		margin-left: -190px;
-	}
+	.w-link{
+	font-size: 2.5rem;
+	color: #0078ff;
+	position: relative;
+	left: 85%;
+	margin-top: -47px;
+}
 
 }
 
@@ -431,7 +456,7 @@ section{
 	width: 150px;
 	height: 150px;
 	border-radius: 50%;
-	top: 20%;
+	top: 22%;
 	left: 44%;
 	text-align: center;
 	position: absolute;
@@ -448,7 +473,7 @@ section{
 }
 .carousel-caption h5{
 	position: absolute;
-	top: 0;
+	top: 0%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
@@ -469,12 +494,12 @@ button{
 	}
 	.carousel-caption h5{
 	 position: absolute;
-	 top: 20%;
+	 top: 0%;
 	 left: 50%;
 	 transform: translate(-50%, -50%);
   }
   .carousel-item p {
-	margin-bottom: -150px;
+	margin-bottom: -155px;
 	text-align: center;
   }
   button{
@@ -564,9 +589,18 @@ button{
 	margin-top: -27px;
 }
 @media screen and (max-width: 900px) {
+	.text-title-a::before{
+	content: '';
+	position: absolute;
+	width: 46px;
+	height: 3px;
+	border-bottom: 4px solid #0078ff;
+	margin-top: 125px;
+	left: 45%;
+  }
 .card-category-box{
 	 position: absolute;
-     top: 60.4%;
+     top: 60%;
      left: 40%;
 	}
 	.card-title{
