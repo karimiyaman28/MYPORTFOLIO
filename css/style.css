@@ -425,7 +425,8 @@ section{
 		margin-top: -1px;
 	}
 	.w-title{
-		margin-right: 220px;
+		margin-right: 100px;
+		
 
 
 	}
@@ -456,10 +457,13 @@ section{
 	width: 150px;
 	height: 150px;
 	border-radius: 50%;
-	top: 22%;
-	left: 44%;
 	text-align: center;
-	position: absolute;
+    position: absolute;
+	left: 45%;
+	top: 22%;
+	text-align: center;
+
+	
 }
 
 .carousel-inner{
@@ -469,41 +473,37 @@ section{
 
 .carousel-caption{
    bottom: 25%;
-	
-}
-.carousel-caption h5{
-	position: absolute;
-	top: 0%;
+   position: relative;
+   margin-top: 410px;
+   transform: translate(-50%, -50%);
 	left: 50%;
-	transform: translate(-50%, -50%);
 }
-.carousel-item p {
-	margin-bottom: -77px;
-	font-weight: 300px;
-}
+
+
 button{
-	margin-top: -100px;
+	margin-top: -120px;
+	
 }
 
 @media screen and (max-width: 1000px) {
 	.carousel-item img{
 		position: absolute;
-		left: 33%;
-		top: 20%;
+		left: 32%;
+		top: 25%;
+		text-align: center;
 
 	}
-	.carousel-caption h5{
-	 position: absolute;
-	 top: 0%;
-	 left: 50%;
-	 transform: translate(-50%, -50%);
+	 .carousel-caption{
+      position: relative;
+      margin-top: 442px;
+     transform: translate(-50%, -50%);
+	 left: 49%;
   }
-  .carousel-item p {
-	margin-bottom: -155px;
-	text-align: center;
-  }
+   
+	
+  
   button{
-  	margin-top: 1px;
+  	margin-top: -46px;
   }
 }
 .carousel-control-prev-icon {
@@ -526,6 +526,9 @@ button{
 	margin-top: 110px;
 	left: 48%;
 }
+.card-body{
+	margin-top: -16px;
+}
 
 .card-category-box{
 	width: 86px;
@@ -534,18 +537,21 @@ button{
 	background-color: #0078ff;
 	color: #fff;
 	font-size: 0.8rem;
-	text-align: center;
 	border-radius: 3px;
-    position: absolute;
-    top: 58%;
-    left: 40%;
+	position: relative;
+	left: 47%;
+	text-align: center;
+   transform: translate(-50%, -50%);
+    
 }
 .card-category-p{
      margin-top: 4px;
 }
 .card-title{
-	margin-left: -110px;
+	float: left;
+	margin-left: 10px;
 	font-size: 1.3rem;
+
 }
 .card-title a{
 	text-decoration: none;
@@ -557,7 +563,7 @@ button{
 }
 .card-subtitle{
 	text-align: left;
-	margin-left: 20px;
+	margin-left: 10px;
 	margin-bottom: 20px;
 }
 .card-footer{
@@ -573,6 +579,9 @@ button{
 .post-ramin .lonks:hover{
 	color: #0078ff;
 }
+.post-ramin img{
+	margin-left: -10px;
+}
 
 .ramin{
 	width: 32px;
@@ -581,12 +590,12 @@ button{
 	margin-top: -5px;
 }
 .author{
-	font-size: 18px;
-	margin-right: 170px;
-	margin-top: -31px;
+	float: left;
+	margin-left: 30px;
+	margin-top: -28px;
 }
 .post-date{
-	margin-top: -27px;
+	margin-top: -30px;
 }
 @media screen and (max-width: 900px) {
 	.text-title-a::before{
@@ -599,17 +608,12 @@ button{
 	left: 45%;
   }
 .card-category-box{
-	 position: absolute;
-     top: 60%;
-     left: 40%;
+	 
 	}
-	.card-title{
-		margin-right: 50px;
-	}
+	
 	.author{
-	font-size: 18px;
-	margin-right: 209px;
-	margin-top: -30px;
+	font-size: 17px;
+	margin-top: -28px;
 }
 }
 .contact-sic{
