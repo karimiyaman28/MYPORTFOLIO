@@ -14,13 +14,17 @@ body{
 
 	
 }
-.mobile-nav-toggle {
+ .mobile-nav-toggle {
     color: #fff;
     font-size: 30px;
     cursor: pointer;
     display: none;
     line-height: 0;
+    margin-right: 5px;
     
+}
+.navbar-toggler{
+	margin-right: 6px;
 }
 .header h1{
 	font-size: 3rem;
