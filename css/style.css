@@ -8,8 +8,23 @@ body{
 .navbar{
 	background: #6610f2;
 }
-@media screen and (max-width: 500px) {
-	
+
+.mobile-nav-toggle {
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+    line-height: 0;
+    
+}
+#logo{
+	margin-top:4px;
+}
+
+@media screen and (max-width: 900px) {
+	.mobile-nav-toggle{
+		display: block;
+	}
 	
 }
 
@@ -40,7 +55,7 @@ body{
 
 
 .image{
-	background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(../images/beard.jpg);
+	background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/beard.jpg);
 	height: 550px;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -627,9 +642,7 @@ button{
 	margin-top: 125px;
 	left: 45%;
   }
-.card-category-box{
-	 
-	}
+
 	
 	.author{
 	font-size: 17px;
@@ -642,7 +655,7 @@ button{
     background: #6610f2;
     text-align: center;
     margin-top: -40px;
-    height: 730px;
+    height: 750px;
 }
 .contact-mf{
 	margin-top: -70px;
@@ -739,7 +752,7 @@ button{
     background-color: #fff;
     margin-bottom: 0;
     z-index: 2;
-    margin-top: 90px;
+    margin-top: 150px;
    }
    .contact-sic{
 	padding: 4rem 0 0 0;
@@ -747,7 +760,7 @@ button{
     background: #6610f2;
     text-align: center;
     margin-top: -40px;
-    height: 1100px;
+    height: 1220px;
 }
 .contact-box .title-left h2{
 	position: absolute;
@@ -857,24 +870,24 @@ button{
 }
 
 .copy-box{
-	background: #4B0082;
+	background: #6610f2;
 	height: 100px;
 	position: absolute;
 	overflow: hidden;
     width: 100%;
 	color: #fff;
     left: 0;
-    margin-top: -49px;
+    margin-top: -30px;
     text-align: center;
 
 }
 .copy-title{
-	margin-top: 30px;
+	margin-top: 25px;
 	font-size: 17px;
 }
 .copy-title h5{
 	font-size: 16px;
-	margin-top: -9px;
+	
 }
 @media screen and (max-width: 900px) {
 	.copy-box{
@@ -883,7 +896,7 @@ button{
        
 	}
 	.copy-title{
-	margin-top: 20px;
+	margin-top: 30px;
  }
 }
 .back-to-top{
