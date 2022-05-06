@@ -5,13 +5,15 @@ body{
 	
 }
 
-.navbar{
-	background: #6610f2;
-}
 
+.navbar-toggler{
+	border: none;
+	outline: none;
+
+}
 .mobile-nav-toggle {
     color: #fff;
-    font-size: 30px;
+    font-size: 32px;
     cursor: pointer;
     display: none;
     line-height: 0;
@@ -38,32 +40,44 @@ body{
       padding:0;
       overflow-x: hidden;
     }
-
-    .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
-      margin-left: 0;
-      margin-right: 0;
-      margin-bottom:0;
+   
+    .navbar{
+    	padding: 3px;
+    	background: #6610f2;
     }
+   
     .navbar-toggler{
     	margin-top: 1px;
+    }
+    .sign-up a{
+    	display: none;
     }
 }
 .navbar-nav .nav-item{
 	font-size: 17px;
-	margin-top: -7px;
+	margin-top: -13px;
+	line-height: 2.3em;
 }
 
 
 .image{
-	background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/beard.jpg);
-	height: 550px;
+	background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url(../images/beard.jpg);
+	height: 650px;
 	background-repeat: no-repeat;
 	background-size: cover;
 	display: flex;
     justify-content: center;
    align-items: center;
    flex-direction: column;
+    margin-top: -90px;
 
+
+}
+.image .fa-hand-paper-o{
+	position: absolute;
+	top: 14%;
+	font-size: 34px;
+	color: yellow;
 
 }
 .image h2{
@@ -73,11 +87,35 @@ body{
 	border: 1px solid #fff;
 	padding: 7px 17px;
 }
-
+.image p{
+	line-height: 1.7em;
+	text-align: left;
+}
 .image a:hover{
 	background: #6610f2;
 	border: #0078ff;
 	color: #333;
+}
+.navbar-nav .nav-item{
+	margin-left: 10px;
+}
+.sign-up {
+	margin-top: -12px;
+}
+.sign-up a{
+     font-size: 17px;
+     position: relative;
+     text-transform: uppercase;
+     left: 78%;
+     background: #6610f2; 
+     margin-top: -24px;
+     border: 1px solid #ccc;
+     color:#fff;
+     border-radius: 3px;
+     padding: 6px 22px;
+}
+.sign-up a:hover{
+	
 }
 
 @media screen and (max-width: 1000px) {
@@ -89,8 +127,20 @@ body{
 	}
 	.image h2{
 		margin-top: 130px;
+		font-size: 30px;
 	}
+	.image p{
+		text-align: center;
+	}
+	.image .fa-hand-paper-o{
+	position: absolute;
+	top: 13%;
+	left: 16%;
+
 }
+	
+}
+
 .img-fluid{
 	margin-top: -4px;
 	position: relative;
@@ -206,7 +256,7 @@ body{
 
 .about-me{
 	position: absolute;
-	top: 107%;
+	top: 109%;
 	left: 64%;
 	z-index: 2;
 	transform: translate(-50%, -50%);
