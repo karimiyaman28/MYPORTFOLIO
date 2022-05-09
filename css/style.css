@@ -17,6 +17,7 @@ body{
     cursor: pointer;
     display: none;
     line-height: 0;
+    margin-right: -10px;
     
 }
 #logo{
@@ -73,15 +74,10 @@ body{
 
 
 }
-.image .fa-hand-paper-o{
-	position: absolute;
-	top: 14%;
-	font-size: 34px;
-	color: yellow;
 
-}
 .image h2{
-	margin-top: 100px;
+	margin-top: 110px;
+	margin-left: 2px;
 }
 .image a{
 	border: 1px solid #fff;
@@ -89,12 +85,19 @@ body{
 }
 .image p{
 	line-height: 1.7em;
-	text-align: left;
+	margin-left: -22px;
 }
 .image a:hover{
 	background: #6610f2;
 	border: #0078ff;
 	color: #333;
+}
+.hand-icon{
+	position: absolute;
+	top: 12%;
+	font-size: 40px;
+	color: yellow;
+	left: 7.5%;
 }
 .navbar-nav .nav-item{
 	margin-left: 10px;
@@ -123,20 +126,21 @@ body{
 		width: 100%;
 		background-position: center;
 		overflow-x: hidden;
-		height: 600px;
+		height: 630px;
 	}
 	.image h2{
-		margin-top: 130px;
+		margin-top: 210px;
 		font-size: 30px;
+		margin-left: -6px;
 	}
-	.image p{
-		text-align: center;
-	}
-	.image .fa-hand-paper-o{
+	
+	.hand-icon{
 	position: absolute;
-	top: 13%;
-	left: 16%;
-
+	top: 19%;
+	font-size: 40px;
+	color: yellow;
+	left: 19%;
+	transform: translate(-50%, -50%);
 }
 	
 }
@@ -211,16 +215,16 @@ body{
 	background-color: #6610f2;
 }
 .html{
-	width: 87%;
+	width: 96%;
 }
 .css{
-	width: 75%;
+	width: 90%;
 }
 .js{
-	width: 50%;
+	width: 70%;
 }
 .boot{
-	width: 90%;
+	width: 85%;
 }
 @media screen and (max-width: 600px) {
    .skill-mf{
@@ -235,28 +239,28 @@ body{
    	margin-top: -4px;
    }
    .bars{
-   	width: 390px;
+   	width: 396px;
    	float: left;
    	text-align: center;
    }
    .html{
-   	width: 87%;
+   	width: 96%;
    }
    .css{
-   	width: 75%;
+   	width: 90%;
    }
    .js{
-   	width: 50%;
+   	width: 70%;
    }
    .boot{
-   	width: 90%;
+   	width: 85%;
    }
 }
 
 
 .about-me{
 	position: absolute;
-	top: 109%;
+	top: 107%;
 	left: 64%;
 	z-index: 2;
 	transform: translate(-50%, -50%);
