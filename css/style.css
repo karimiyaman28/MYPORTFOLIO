@@ -74,9 +74,20 @@ body{
 
 
 }
+.hand-icon{
+	position: relative;
+	margin-top: 125px;
+	left: 2%;
+	z-index: 2;
+
+}
+ .hand-icon .fa-hand-paper-o{
+	color: yellow;
+	font-size: 36px;
+}
 
 .image h2{
-	margin-top: 110px;
+	margin-top: 10px;
 	margin-left: 2px;
 }
 .image a{
@@ -93,11 +104,7 @@ body{
 	color: #333;
 }
 .hand-icon{
-	position: absolute;
-	top: 12%;
-	font-size: 40px;
-	color: yellow;
-	left: 7.5%;
+	
 }
 .navbar-nav .nav-item{
 	margin-left: 10px;
@@ -129,18 +136,18 @@ body{
 		height: 630px;
 	}
 	.image h2{
-		margin-top: 210px;
+		margin-top: 15px;
 		font-size: 30px;
-		margin-left: -6px;
+		
 	}
 	
 	.hand-icon{
-	position: absolute;
-	top: 19%;
-	font-size: 40px;
-	color: yellow;
-	left: 19%;
-	transform: translate(-50%, -50%);
+	position: relative;
+	margin-top: 180px;
+	text-align:start;
+	left: 15%;
+	z-index: 2;
+
 }
 	
 }
@@ -282,7 +289,7 @@ body{
 @media screen and (max-width: 900px) {
 	.about-mf .box-shadow-full {
     padding-top: 4rem;
-    padding-bottom: 56rem;
+    padding-bottom: 60rem;
     z-index: 2;
    }
    .img-fluid{
@@ -303,7 +310,7 @@ body{
    }
    #about-title{
 	font-size: 2rem;
-	margin-top: -370px;
+	margin-top: -400px;
 	margin-bottom: 40px;
  }
  .service-title{
