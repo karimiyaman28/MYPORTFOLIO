@@ -793,14 +793,22 @@ section{
 @media screen and (max-width: 1000px) {
   .box-title .title-right{
       position: absolute;
-      top: 50%;
+      top: 48%;
       display: inline-block;
       left: 5%;
   }
-  
+  .box-title .title-right:after{
+	content: '';
+	position: absolute;
+	width: 118px;
+	height: 3px;
+	border-bottom: 3px solid #6610f2;
+	margin-top: 0;
+	left: 1%;
+}
   .info-more{
      position: relative;
-	 margin-top: 120px;
+     margin-top: 99px;
 	 left: 1%;
 	 text-align: left;
   }
