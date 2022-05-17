@@ -18,7 +18,8 @@ body{
     display: none;
     line-height: 0;
     margin-right: -10px;
-    
+    overflow-x: hidden;
+    float: right;
 }
 #logo{
 	margin-top:4px;
@@ -27,6 +28,8 @@ body{
 @media screen and (max-width: 900px) {
 	.mobile-nav-toggle{
 		display: block;
+		overflow-x: hidden;
+		float: right;
 	}
 	
 	
@@ -37,7 +40,6 @@ body{
       padding:0;
       margin:0;
     }
-
     body {
       overflow-x: hidden;
     }
@@ -45,6 +47,7 @@ body{
     .navbar{
     	padding: 3px;
     	background: #6610f2;
+    	overflow-x: hidden;
     }
    
     .navbar-toggler{
