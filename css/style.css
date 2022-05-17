@@ -29,16 +29,16 @@ body{
 		display: block;
 	}
 	
+	
 }
 
-@media (max-width: 978px) {
+@media (max-width: 900px) {
     .container {
       padding:0;
       margin:0;
     }
 
     body {
-      padding:0;
       overflow-x: hidden;
     }
    
@@ -751,10 +751,9 @@ section{
 .box-title .title-right:after{
 	content: '';
 	position: absolute;
-	width: 118px;
+	width: 103px;
 	height: 3px;
 	border-bottom: 3px solid #6610f2;
-	margin-top: 4px;
 	left: 1%;
 }
 .info-more{
@@ -764,6 +763,10 @@ section{
 	text-align: left;
 	z-index: 2;
 
+}
+.info-more h6{
+	font-size: 18px;
+	line-height: 1.5em;
 }
 
 .list-ico{
@@ -780,7 +783,7 @@ section{
 	position: relative;
 	text-align: center;
 	left: 58%;
-	margin-top: -75px;
+	margin-top: -114px;
 }
 .social-ico ul{
 	list-style: none;
@@ -819,7 +822,7 @@ section{
 	text-align: center;
 	z-index: 2;
 	left: -11%;
-	top: 93%;
+	top: 96%;
 }
  
 }
