@@ -311,12 +311,15 @@ body{
 	left: 48%;
 	z-index: 2;
 	transform: translate(-50%, -50%);
-	
    }
    #about-title{
 	font-size: 2rem;
 	margin-top: -400px;
 	margin-bottom: 40px;
+ }
+ #about-parag{
+ 	position: relative;
+ 	margin-top: -24px;
  }
  .service-title{
  	margin-top: -70px;
@@ -352,6 +355,7 @@ body{
     margin-bottom: 3rem;
     text-align: center;
     box-shadow: 0 13px 8px -10px rgb(0 0 0 / 10%);
+    margin-top: 30px;
     
 }
 
@@ -400,7 +404,7 @@ body{
 	width: 90px;
 	height: 3px;
 	border-bottom: 4px solid #6610f2;
-	margin-top: 100px;
+	margin-top: 114px;
 	left: 41%;
 
 }
@@ -582,6 +586,9 @@ body{
 	letter-spacing: 3px;
 	color: grey;
 }
+.teams p{
+	text-align: center;
+}
 @media screen and (max-width: 1000px) {
 	.backs{
 		background-color: #6610f2;
@@ -602,10 +609,10 @@ body{
 }
 	.shadows {
 		position: absolute;
-		margin-top:-40%;
-		left: 33.7%;
+		margin-top:-35%;
+		left: 33%;
 		transform: translate(-50%, -50%);
-		height: 1600px;
+		height: 1630px;
 		width: 340px;
 	}
 	.im{
@@ -630,7 +637,7 @@ body{
 
 @media screen and (max-width: 1000px) {
 	.text-center .text-title-a{
-		margin-top: 578px;
+		margin-top: 630px;
 		margin-left: -10px;
 	}
 	.text-title::before{
