@@ -33,6 +33,9 @@ body{
     overflow-x: hidden;
     
 }
+.navbar-nav .nav-item{
+	font-size: 19px;
+}
 .navbar-toggler{
 	margin-right: 6px;
 }

@@ -444,7 +444,7 @@ body{
 .text-title {
 	color: #000;
 }
-.text-title::before{
+.text-titles::before{
     content: '';
     position: absolute;
     border-bottom: 4px solid #6610f2;
@@ -455,20 +455,19 @@ body{
 
  }
  @media screen and (max-width: 900px) {
- 	.text-title:before{
+ 	.text-titles::before{
     content: '';
     position: absolute;
     border-bottom: 4px solid #6610f2;
     width: 115px;
     height: 3px;
-    margin-top: 115px;
-    left: 46%;
+    margin-top: 108px;
+    left: 37%;
 
+  }
  }
- }
-section{
-	display: block;
-}
+
+ 
 .work-box{
 	box-shadow: 0 13px 8px -10px rgb(0 0 0 / 28%);
 	background-color: #fff;
