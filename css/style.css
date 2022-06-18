@@ -65,7 +65,7 @@ body{
 
 
 .image{
-	background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url(../images/beard.jpg);
+	background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url(../images/beard.jpg);
 	height: 650px;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -77,17 +77,15 @@ body{
 
 
 }
-.hand-icon{
+.image h6{
 	position: relative;
 	margin-top: 125px;
-	left: 2%;
+	left: 1%;
 	z-index: 2;
-
-}
- .hand-icon .fa-hand-paper-o{
 	color: yellow;
-	font-size: 36px;
+	font-size: 19px;
 }
+
 
 .image h2{
 	margin-top: 10px;
@@ -106,9 +104,7 @@ body{
 	border: #0078ff;
 	color: #333;
 }
-.hand-icon{
-	
-}
+
 .navbar-nav .nav-item{
 	margin-left: 10px;
 }
@@ -144,14 +140,15 @@ body{
 		
 	}
 	
-	.hand-icon{
+	.image h6{
 	position: relative;
-	margin-top: 180px;
-	text-align:start;
-	left: 15%;
+	margin-top: 125px;
+	left: -26.7%;
 	z-index: 2;
-
+	color: yellow;
+	font-size: 19px;
 }
+
 	
 }
 
@@ -202,6 +199,7 @@ body{
 	margin-top: 29px;
 	margin-left: 15px;
 	font-size: 1.1rem;
+	color: #000;
 }
 .skill-mf{
 	margin-top: 4px;
@@ -267,10 +265,13 @@ body{
    }
 }
 
-
+#about-parag{
+	font-size: 20px;
+	line-height: 1.6em;
+}
 .about-me{
 	position: absolute;
-	top: 107%;
+	top: 109%;
 	left: 64%;
 	z-index: 2;
 	transform: translate(-50%, -50%);
@@ -278,6 +279,7 @@ body{
 #about-title{
 	font-size: 2rem;
 	margin-bottom: 40px;
+	color: #000;
 }
 #about-title:before{
 	content: '';
@@ -326,6 +328,7 @@ body{
 
 .service-title{
 	font-size: 3rem;
+	color: #000;
 
 }
 .service-subtitle{
@@ -334,11 +337,11 @@ body{
 .service-subtitle:before{
 	content: '';
 	position: absolute;
-	width: 46px;
+	width: 90px;
 	height: 3px;
 	border-bottom: 4px solid #6610f2;
-	margin-top: 50px;
-	left: 48%;
+	margin-top: 68px;
+	left: 46%;
 
 }
 
@@ -363,22 +366,26 @@ body{
    
    
 }
-.ico-circle{
-	width: 60px;
-	height: 60px;
+.service-box .ico-circle{
+	width: 90px;
+	height: 90px;
 	border-radius: 50%;
 	box-shadow: 0 0 0 10px #6610f2;
 	line-height: 1.55;
 	margin: 0 auto;
    text-align: center;
-
-
+   
 }
+
+.service-box .ico-circle i{
+	font-size: 27px;
+}
+
 
 
 .service-content h4{
 	font-size: 1.4rem;
-	color: #1e1e1e;
+	color: #000;
 }
 .service-box:hover .ico-circle{
     transition: all 500ms ease;
@@ -390,43 +397,34 @@ body{
 	.service-subtitle:before{
 	content: '';
 	position: absolute;
-	width: 46px;
+	width: 90px;
 	height: 3px;
 	border-bottom: 4px solid #6610f2;
-	margin-top: 53px;
-	left: 44%;
+	margin-top: 100px;
+	left: 41%;
 
 }
 }
 .counter{
-	height: 280px;
-	position:relative;
-	background: #6610f2;
-	text-align: center;
-	margin-top: -40px;
-	overflow: hidden;
+	background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url(../images/G.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 300px;
+	background-position: center;
 }
 .counter-box{
 	margin-top: 60px;
 }
-.counter-ico .ico-circle {
-	height: 60px;
-	width: 60px;
-	align-items: center;
-	box-shadow: 0 0 0 10px #cde1f8;
-	display: inline-flex;
-	text-align: center;
-	justify-content: center;
-	left: 0;
-	top: 0;
-	right: 0;
-}
+
 
 .counter-ico .ico-circle i{
 	text-align: center;
+	font-size: 39px;
+	margin-top: 10px;
+	margin-left: 7px;
 }
 .counter-body {
-	margin-top: 29px;
+	margin-top: 20px;
 }
 
 
@@ -434,26 +432,39 @@ body{
 @media screen and (max-width: 1000px) {
 	.counter{
 		
-		height: 840px;
+		height: 780px;
 
 	}
 	.counter-box{
-		margin: 0 auto;
+		margin: 30px;
+		z-index: 2;
 	}
-	.counter-ico{
-		margin-top: 30px;
-	}
+	
 }
-
+.text-title {
+	color: #000;
+}
 .text-title::before{
     content: '';
     position: absolute;
     border-bottom: 4px solid #6610f2;
-    width: 46px;
+    width: 115px;
     height: 3px;
-    margin-top: 97px;
-    left: 48%;
+    margin-top: 115px;
+    left: 46%;
 
+ }
+ @media screen and (max-width: 900px) {
+ 	.text-title:before{
+    content: '';
+    position: absolute;
+    border-bottom: 4px solid #6610f2;
+    width: 115px;
+    height: 3px;
+    margin-top: 115px;
+    left: 46%;
+
+ }
  }
 section{
 	display: block;
@@ -461,7 +472,8 @@ section{
 .work-box{
 	box-shadow: 0 13px 8px -10px rgb(0 0 0 / 28%);
 	background-color: #fff;
-	margin-bottom: 65px;
+	position: relative;
+	margin-top: 60px;
 }
 .work-box:hover img{
 	transform: scale(1.3);
@@ -484,6 +496,7 @@ section{
 
 .w-title{
 	font-size: 1.2rem;
+	color: #000;
 	
 	
 	
@@ -505,7 +518,122 @@ section{
 	margin-top: -40px;
 }
 
+.backs{
+	background-color: #6610f2;
+	height: 200px;
+	position: relative;
+	margin-top: 240px;
+    width: 160%;
+    left: -10%;
+
+
+}
+
+.teams h1{
+	color: #000;
+}
+.teams h1:after{
+	 content: '';
+    position: absolute;
+    border-bottom: 4px solid #6610f2;
+    width: 115px;
+    height: 3px;
+    margin-top: 140px;
+    left: 45.5%;
+}
+.shadows{
+	 height: 550px;
+     width: 1150px;
+     background-color: #fff;
+     position: relative;
+     margin-left: 70px;
+     z-index: 2;
+     margin-top: -400px;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 13%), 0 2px 4px 0 rgb(0 0 0 / 29%);
+}
+
+.im{
+	width: 215px;
+	height: 215px;
+	border-radius: 50%;
+	margin-left: 75px;
+	margin-top: 30px;
+
+}
+.var h3{
+	margin-top: 18px;
+	margin-left: 89px;
+	color: #000;
+}
+.var h5 {
+	margin-top: 10px;
+	margin-left: 104px;
+	font-size: 17px;
+	color: #6610f2;
+}
+.var p{
+	margin-top: 12px;
+	text-align: center;
+	line-height: 1.8em;
+}
+.icons {
+	margin-left: 120px;
+	margin-top:20px;
+	font-size: 28px;
+	letter-spacing: 3px;
+	color: grey;
+}
 @media screen and (max-width: 1000px) {
+	.backs{
+		background-color: #6610f2;
+	    height: 800px;
+	    position: relative;
+        width: 150%;
+      
+	}
+	.teams h1:after{
+	 content: '';
+    position: absolute;
+    border-bottom: 4px solid #6610f2;
+    width: 115px;
+    height: 3px;
+    margin-top: 158px;
+    left: 36.5%;
+    z-index: 2;
+}
+	.shadows {
+		position: absolute;
+		margin-top:-40%;
+		left: 33.7%;
+		transform: translate(-50%, -50%);
+		height: 1600px;
+		width: 340px;
+	}
+	.im{
+		margin-left: 43px;
+		position: relative;
+		width: 250px;
+		height: 250px;
+	}
+	.team{
+		position: relative;
+		margin-top: 40px;
+	}
+	.var h3{
+		margin-left: 96px;
+
+	}
+	.var h5 {
+		position: relative;
+		margin-left: 95px;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	.text-center .text-title-a{
+		margin-top: 578px;
+		margin-left: -10px;
+	}
 	.text-title::before{
     content: '';
     position: absolute;
@@ -516,6 +644,7 @@ section{
     left: 44%;
 
  }
+
 	.work-content{
 		margin-top: -1px;
 	}
@@ -534,45 +663,47 @@ section{
 }
 
 }
-
+#blog{
+	position: relative;
+	margin-top: 100px;
+}
+.card-blog{
+	margin-top: 40px;
+}
 
 .text-title-a{
 	font-size: 3rem;
+	z-index: 2;
+	color: #000;
 }
 .text-title-a::before{
 	content: '';
 	position: absolute;
-	width: 46px;
+	width: 109px;
 	height: 3px;
 	border-bottom: 4px solid #6610f2;
-	margin-top: 110px;
-	left: 48%;
+	margin-top: 120px;
+	left: 46.5%;
 }
 .card-body{
 	margin-top: -16px;
 }
-
-.card-category-box{
-	width: 86px;
-	display: inline-block;
-	height: 29px;
-	background-color: #6610f2;
-	color: #fff;
-	font-size: 0.8rem;
-	border-radius: 3px;
-	position: relative;
-	left: 47%;
-	text-align: center;
-   transform: translate(-50%, -50%);
-    
+.card-category-box {
+	margin-top:10px;
 }
+.card-category-box span small {
+	font-size: 90%;
+}
+
 .card-category-p{
      margin-top: 4px;
 }
 .card-title{
 	float: left;
-	margin-left: 10px;
-	font-size: 1.3rem;
+	margin-left: 14px;
+	font-size: 1rem;
+	text-transform: uppercase;
+	margin-top: -6px;
 
 }
 .card-title a{
@@ -584,9 +715,11 @@ section{
 	color: #6610f2;
 }
 .card-subtitle{
+	position: relative;
 	text-align: left;
-	margin-left: 10px;
-	margin-bottom: 20px;
+	margin-left: 14px;
+	margin-bottom: 5px;
+
 }
 .card-footer{
 	padding: 0.5rem 1rem;
@@ -619,17 +752,18 @@ section{
 .post-date{
 	margin-top: -30px;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
+	
 	.text-title-a::before{
 	content: '';
 	position: absolute;
-	width: 46px;
+	width: 100px;
 	height: 3px;
 	border-bottom: 4px solid #6610f2;
-	margin-top: 125px;
-	left: 45%;
+	margin-top: 121px;
+	left: 40%;
   }
-
+    
 	
 	.author{
 	font-size: 17px;
@@ -748,6 +882,7 @@ section{
 	position: absolute;
 	top: 6%;
 	left: 52.4%;
+	color: #000;
 }
 
 
