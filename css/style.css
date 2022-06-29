@@ -212,7 +212,7 @@ body{
 	
 }
 .bars{
-	width: 560px;
+	width: 540px;
 	height: 11px;
 	background-color: #cde1f8;
 	margin-bottom: 13px;
@@ -223,10 +223,10 @@ body{
 	background-color: #6610f2;
 }
 .html{
-	width: 96%;
+	width: 93%;
 }
 .css{
-	width: 90%;
+	width: 87%;
 }
 .js{
 	width: 70%;
@@ -252,10 +252,10 @@ body{
    	text-align: center;
    }
    .html{
-   	width: 96%;
+   	width: 93%;
    }
    .css{
-   	width: 90%;
+   	width: 87%;
    }
    .js{
    	width: 70%;
@@ -271,7 +271,7 @@ body{
 }
 .about-me{
 	position: absolute;
-	top: 109%;
+	top: 105%;
 	left: 64%;
 	z-index: 2;
 	transform: translate(-50%, -50%);
@@ -293,7 +293,7 @@ body{
 }
 @media screen and (max-width: 900px) {
 	.about-mf .box-shadow-full {
-    padding-top: 4rem;
+    padding-top: 11rem;
     padding-bottom: 60rem;
     z-index: 2;
    }
@@ -314,12 +314,8 @@ body{
    }
    #about-title{
 	font-size: 2rem;
-	margin-top: -400px;
+	margin-top: -380px;
 	margin-bottom: 40px;
- }
- #about-parag{
- 	position: relative;
- 	margin-top: -24px;
  }
  .service-title{
  	margin-top: -70px;
@@ -401,11 +397,11 @@ body{
 	.service-subtitle:before{
 	content: '';
 	position: absolute;
-	width: 90px;
+	width: 118px;
 	height: 3px;
 	border-bottom: 4px solid #6610f2;
-	margin-top: 114px;
-	left: 41%;
+	margin-top: 168px;
+	left: 38%;
 
 }
 }
@@ -448,13 +444,16 @@ body{
 .text-title {
 	color: #000;
 }
+.text-titles {
+	font-size: 3rem;
+}
 .text-titles::before{
     content: '';
     position: absolute;
     border-bottom: 4px solid #6610f2;
     width: 115px;
     height: 3px;
-    margin-top: 115px;
+    margin-top: 129px;
     left: 46%;
 
  }
@@ -465,7 +464,7 @@ body{
     border-bottom: 4px solid #6610f2;
     width: 115px;
     height: 3px;
-    margin-top: 108px;
+    margin-top: 155px;
     left: 37%;
 
   }
@@ -532,8 +531,9 @@ body{
 
 }
 
-.teams h1{
+.teams h2{
 	color: #000;
+	font-size: 3rem;
 }
 .teams h1:after{
 	 content: '';
@@ -592,7 +592,7 @@ body{
 @media screen and (max-width: 1000px) {
 	.backs{
 		background-color: #6610f2;
-	    height: 800px;
+	    height: 1000px;
 	    position: relative;
         width: 150%;
       
@@ -609,8 +609,8 @@ body{
 }
 	.shadows {
 		position: absolute;
-		margin-top:-35%;
 		left: 33%;
+		margin-top: -70%;
 		transform: translate(-50%, -50%);
 		height: 1630px;
 		width: 340px;
@@ -637,7 +637,7 @@ body{
 
 @media screen and (max-width: 1000px) {
 	.text-center .text-title-a{
-		margin-top: 630px;
+		margin-top: 550px;
 		margin-left: -10px;
 	}
 	.text-title::before{
