@@ -294,11 +294,11 @@ body{
 @media screen and (max-width: 900px) {
 	.about-mf .box-shadow-full {
     padding-top: 11rem;
-    padding-bottom: 60rem;
+    padding-bottom: 62rem;
     z-index: 2;
    }
    .img-fluid{
-	margin-top: -15px;
+	margin-top: -140px;
 
 }
    .about-info{
@@ -314,7 +314,7 @@ body{
    }
    #about-title{
 	font-size: 2rem;
-	margin-top: -380px;
+	margin-top: -397px;
 	margin-bottom: 40px;
  }
  .service-title{
