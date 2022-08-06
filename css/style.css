@@ -65,7 +65,7 @@ body{
 
 
 .image{
-	background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url(../images/beard.jpg);
+	background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url(../images/beard.jpg);
 	height: 650px;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -96,7 +96,7 @@ body{
 	padding: 7px 17px;
 }
 .image p{
-	line-height: 1.7em;
+	line-height: 1.6em;
 	margin-left: -22px;
 }
 .image a:hover{
@@ -129,10 +129,10 @@ body{
 
 @media screen and (max-width: 1000px) {
 	.image{
-		width: 100%;
+		height: 650px;
 		background-position: center;
 		overflow-x: hidden;
-		height: 630px;
+	
 	}
 	.image h2{
 		margin-top: 15px;
@@ -156,6 +156,8 @@ body{
 	margin-top: -4px;
 	position: relative;
 	left: -1%;
+	width: 160px;
+	height: 168px;
 }
 
 .about-info{
@@ -181,16 +183,16 @@ body{
 	box-sizing: border-box;
 }
 .about-mf .box-shadow-full {
-    padding-top: 4rem;
-    padding-bottom: 5rem;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
     z-index: 2;
    }
 
 .box-shadow-full {
-    padding: 3rem 1.25rem;
+    padding: 1rem;
     position: relative;
     background-color: #fff;
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
     z-index: 2;
     box-shadow: 0 1px 1px 0 rgb(0 0 0 / 13%), 0 2px 5px 0 rgb(0 0 0 / 29%);
 }
@@ -265,33 +267,45 @@ body{
    }
 }
 
-#about-parag{
-	font-size: 20px;
-	line-height: 1.6em;
-}
-.about-me{
+.post{
 	position: absolute;
-	top: 105%;
-	left: 64%;
-	z-index: 2;
-	transform: translate(-50%, -50%);
-}
-#about-title{
-	font-size: 2rem;
-	margin-bottom: 40px;
-	color: #000;
-}
-#about-title:before{
-	content: '';
-	position: absolute;
-	width: 90px;
-	height: 3px;
-	border-bottom: 3px solid #6610f2;
-	margin-top: 46px;
-	left: 1%;
+	top: 23%;
+	left: 47%;
+	text-align: left;
 
 }
+.post h2{
+	position: relative;
+	margin-top: -80px;
+	left: -1%;
+}
+.post h2:after{
+	content: '';
+	width: 105px;
+	height: 3px;
+	position: absolute;
+	left: 0%;
+	margin-top: 54px;
+	border-bottom: 3px solid #6610f2;
+}
+#about-parag{
+	margin-top: 54px;
+	position: relative;
+	left: -1%;
+	font-size: 18px;
+	line-height: 1.8em;
+}
+
+
 @media screen and (max-width: 900px) {
+	.box-shadow-full {
+    padding: 1rem;
+    position: relative;
+    background-color: #fff;
+    margin-bottom: 10rem;
+    z-index: 2;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 13%), 0 2px 5px 0 rgb(0 0 0 / 29%);
+}
 	.about-mf .box-shadow-full {
     padding-top: 11rem;
     padding-bottom: 62rem;
@@ -306,17 +320,42 @@ body{
 	margin-top: 10px;
 
   }
-   .about-me{
-	position: relative;
-	left: 48%;
-	z-index: 2;
-	transform: translate(-50%, -50%);
-   }
+   
    #about-title{
 	font-size: 2rem;
 	margin-top: -397px;
 	margin-bottom: 40px;
  }
+
+  .post{
+	position: absolute;
+	top: 78%;
+	left: 0%;
+
+}
+.post h2{
+	position: relative;
+	margin-top: -60px;
+	left: -1%;
+}
+
+  .post h2:after{
+	content: '';
+	width: 110px;
+	height: 3px;
+	position: absolute;
+	left: 0%;
+	margin-top: 48px;
+	border-bottom: 3px solid #6610f2;
+}
+#about-parag{
+	margin-top: 54px;
+	position: relative;
+	left: -1%;
+	font-size: 18px;
+	line-height: 2em;
+}
+
  .service-title{
  	margin-top: -70px;
  }
@@ -336,10 +375,10 @@ body{
 .service-subtitle:before{
 	content: '';
 	position: absolute;
-	width: 90px;
+	width: 106px;
 	height: 3px;
 	border-bottom: 4px solid #6610f2;
-	margin-top: 68px;
+	margin-top: 70px;
 	left: 46%;
 
 }
@@ -400,8 +439,8 @@ body{
 	width: 118px;
 	height: 3px;
 	border-bottom: 4px solid #6610f2;
-	margin-top: 168px;
-	left: 38%;
+	margin-top: 100px;
+	left: 37%;
 
 }
 }
@@ -432,11 +471,12 @@ body{
 @media screen and (max-width: 1000px) {
 	.counter{
 		
-		height: 780px;
+		height: 890px;
 
 	}
 	.counter-box{
-		margin: 30px;
+		position: relative;
+		margin-top:60px;
 		z-index: 2;
 	}
 	
@@ -886,7 +926,7 @@ body{
 }
 .box-title .title-right{
 	position: absolute;
-	top: 6%;
+	top: 7%;
 	left: 52.4%;
 	color: #000;
 }
@@ -899,10 +939,11 @@ body{
 	height: 3px;
 	border-bottom: 3px solid #6610f2;
 	left: 1%;
+	top: 80%;
 }
 .info-more{
 	position: absolute;
-	top: 18%;
+	top: 22%;
 	left: 52.8%;
 	text-align: left;
 	z-index: 2;
@@ -927,7 +968,7 @@ body{
 	position: relative;
 	text-align: center;
 	left: 58%;
-	margin-top: -114px;
+	margin-top: -70px;
 }
 .social-ico ul{
 	list-style: none;
@@ -940,9 +981,10 @@ body{
 @media screen and (max-width: 1000px) {
   .box-title .title-right{
       position: absolute;
-      top: 48%;
+      top: 49%;
       display: inline-block;
       left: 5%;
+    
   }
   .box-title .title-right:after{
 	content: '';
@@ -950,12 +992,14 @@ body{
 	width: 118px;
 	height: 3px;
 	border-bottom: 3px solid #6610f2;
-	margin-top: 0;
-	left: 1%;
+	top: 100%;
+	left: 3%;
+	
+
 }
   .info-more{
      position: relative;
-     margin-top: 99px;
+     margin-top: 130px;
 	 left: 1%;
 	 text-align: left;
   }
@@ -966,7 +1010,7 @@ body{
 	text-align: center;
 	z-index: 2;
 	left: -11%;
-	top: 96%;
+	top: 92%;
 }
  
 }
@@ -1009,19 +1053,19 @@ body{
 	width: 40px;
 	height: 40px;
 	border-radius: 50px;
+	
 	z-index: 996;
 	transition: all 0.4s;
 }
 .back-to-top i{
 	opacity: 1;
-	color:#0078ff; 
+	color: #6610f2; 
 	font-size: 28px;
 	z-index: 996;
 }
 .back-to-top.active{
 	visibility: visible;
-	opacity: 1;
-	z-index: 1;
+	
 }
 @media screen and (max-width: 900px) {
 	.back-to-top{
