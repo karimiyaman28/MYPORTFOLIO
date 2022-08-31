@@ -5,11 +5,11 @@ body{
 	
 }
 
-
-.navbar-toggler{
-	border: none;
-	outline: none;
-
+.navbar{
+	margin-top: 0;
+}
+#navbar.sticky{
+	background-color: #333;
 }
 .mobile-nav-toggle {
     color: #fff;
@@ -21,17 +21,22 @@ body{
     overflow-x: hidden;
     float: right;
 }
+
 #logo{
 	margin-top:4px;
+
 }
 
+.navbar-nav .nav-item{
+	position: relative;
+	margin-right: 16px;
+}
 @media screen and (max-width: 900px) {
 	.mobile-nav-toggle{
 		display: block;
 		overflow-x: hidden;
 		float: right;
 	}
-	
 	
 }
 
@@ -45,7 +50,8 @@ body{
     }
    
     .navbar{
-    	padding: 3px;
+    	padding-top: 3px;
+    	margin-top: 0;
     	background: #6610f2;
     	overflow-x: hidden;
     }
@@ -61,19 +67,21 @@ body{
 	font-size: 17px;
 	margin-top: -13px;
 	line-height: 2.3em;
+	
+	
 }
 
 
 .image{
 	background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url(../images/beard.jpg);
-	height: 650px;
+	height: 600px;
 	background-repeat: no-repeat;
 	background-size: cover;
 	display: flex;
     justify-content: center;
    align-items: center;
    flex-direction: column;
-    margin-top: -90px;
+   
 
 
 }
@@ -115,13 +123,13 @@ body{
      font-size: 17px;
      position: relative;
      text-transform: uppercase;
-     left: 78%;
-     background: #6610f2; 
+     background: yellow; 
+     left: 68%;
      margin-top: -24px;
      border: 1px solid #ccc;
-     color:#fff;
+     color:#000;
      border-radius: 3px;
-     padding: 6px 22px;
+     padding: 6px 16px;
 }
 .sign-up a:hover{
 	
@@ -196,6 +204,8 @@ body{
     z-index: 2;
     box-shadow: 0 1px 1px 0 rgb(0 0 0 / 13%), 0 2px 5px 0 rgb(0 0 0 / 29%);
 }
+
+
 
 #title{
 	margin-top: 29px;
@@ -356,14 +366,27 @@ body{
 	line-height: 2em;
 }
 
+
  .service-title{
  	margin-top: -70px;
  }
  
 
 }
+.janm{
+	position: absolute;
+	top: 7%;
+	left: 48%;
+	font-size: 15px;
+	letter-spacing: 3px;
+}
 
 
+.khan{
+	font-size: 14px;
+	letter-spacing: 3px;
+
+}
 .service-title{
 	font-size: 3rem;
 	color: #000;
@@ -443,6 +466,23 @@ body{
 	left: 37%;
 
 }
+ .janm{
+	position: absolute;
+	top: 49.4%;
+	left: 4%;
+	font-size: 15px;
+	letter-spacing: 3px;
+}
+  
+  .khan{
+	font-size: 14px;
+	letter-spacing: 3px;
+    position: absolute;
+    top: 269%;
+    left: 37%;
+    z-index: 2;
+}
+
 }
 .counter{
 	background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url(../images/G.jpg);
@@ -530,6 +570,10 @@ body{
 	
 }
 
+.bab{
+	font-size: 14px;
+	letter-spacing: 3px;
+}
 .work-content{
 	margin-top: 19px;
 	margin-left: 20px;
@@ -663,7 +707,7 @@ body{
 	}
 	.team{
 		position: relative;
-		margin-top: 40px;
+		margin-top: 4px;
 	}
 	.var h3{
 		margin-left: 96px;
@@ -677,7 +721,7 @@ body{
 
 @media screen and (max-width: 1000px) {
 	.text-center .text-title-a{
-		margin-top: 550px;
+		margin-top: 500px;
 		margin-left: -10px;
 	}
 	.text-title::before{
@@ -690,6 +734,13 @@ body{
     left: 44%;
 
  }
+  #blogs{
+	font-size: 14px;
+	letter-spacing: 3px;
+	position: relative;
+	left: 10%;
+	z-index: 2;
+}
 
 	.work-content{
 		margin-top: -1px;
@@ -713,6 +764,7 @@ body{
 	position: relative;
 	margin-top: 100px;
 }
+
 .card-blog{
 	margin-top: 40px;
 }
@@ -721,6 +773,11 @@ body{
 	font-size: 3rem;
 	z-index: 2;
 	color: #000;
+}
+.tem {
+  font-size: 14px;
+  letter-spacing: 3px;
+  margin-top: 10px;
 }
 .text-title-a::before{
 	content: '';
@@ -953,6 +1010,10 @@ body{
 	font-size: 18px;
 	line-height: 1.5em;
 }
+#blogs{
+	font-size: 14px;
+	letter-spacing: 3px;
+}
 
 .list-ico{
 	list-style: none;
@@ -1014,62 +1075,144 @@ body{
 }
  
 }
-
-.copy-box{
-	background: #6610f2;
-	height: 100px;
-	position: absolute;
-	overflow: hidden;
-    width: 100%;
+footer{
+	width: 1560px;
+	height: 460px;
+	background-color: #333;
 	color: #fff;
-    left: 0;
-    margin-top: -30px;
-    text-align: center;
+	z-index: 2;
+	position: relative;
+	left: 0%;
+}
+
+.footers{
+	position: relative;
+	z-index: 2;
+	left: 0%;
+	margin-top: 60px;
+}
+.about-sec h4{
+	font-size: 19px;
+}
+.about-sec p{
+	line-height: 1.7em;
+}
+.icos i{
+	margin-right: 3px;
+	font-size: 20px;
+}
+.navs{
+	position: relative;
+	left: 90%;
+}
+.navs li{
+	list-style: none;
+}
+.navs ul  a{
+    text-decoration: none;
+    color: #fff;
+    line-height: 2em;
+    margin-left: -10px;
+}
+.navs h4{
+	font-size: 19px;
+}
+.sorvice{
+	position: relative;
+	left: 270%;
+}
+.sorvice ul{
+	margin-left: -28px;
+	line-height: 2em;
+}
+.sorvice li{
+	list-style: none;
+}
+.sorvice a{
+	text-decoration: none;
+	color: #fff;
+}
+.sorvice h4{
+	font-size: 19px;
+}
+.contacts{
+	position: relative;
+	left: 123%;
+}
+.contacts h4{
+	font-size: 19px;
+}
+.infos{
+	line-height: 2em;
+}
+
+@media screen and (max-width: 900px) {
+	footer{
+		width: 500px;
+	   height: 1130px;
+	   background-color: #333;
+	   color: #fff;
+	   z-index: 2;
+	   position: relative;
+	   left: 0%;
+	}
+	.navs{
+		position: relative;
+		left: 3%;
+		margin-top: 30px;
+	}
+	.navs h4{
+		font-size: 17px;
+	}
+	.about-sec{
+		margin-left: 18px;
+	}
+	.about-sec h4{
+      font-size: 17px;
+	}
+
+	.sorvice {
+		position: relative;
+		left:3.6%;
+		margin-top: 30px;
+
+	}
+	.sorvice h4{
+		font-size: 17px;
+	}
+	.contacts{
+		position: relative;
+		left: 3%;
+		margin-top: 30px;
+	}
+	.contacts h4{
+		font-size: 17px;
+	}
 
 }
-.copy-title{
-	margin-top: 25px;
-	font-size: 17px;
-}
-.copy-title h5{
-	font-size: 16px;
-	
-}
-@media screen and (max-width: 900px) {
-	.copy-box{
-		overflow: hidden;
-		text-align:center;
-       
-	}
-	.copy-title{
-	margin-top: 30px;
- }
-}
-.back-to-top{
+
+.copyright{
 	position: relative;
-	margin-top: 0;
-	left: 96%;
-	background: #fff;
-	width: 40px;
-	height: 40px;
-	border-radius: 50px;
-	
-	z-index: 996;
-	transition: all 0.4s;
+	margin-top: 80px;
+	left: 28%;
+
 }
-.back-to-top i{
-	opacity: 1;
-	color: #6610f2; 
-	font-size: 28px;
-	z-index: 996;
+.copys p{
+	font-size: 15px;
 }
-.back-to-top.active{
-	visibility: visible;
-	
-}
-@media screen and (max-width: 900px) {
-	.back-to-top{
-	   position: relative;
-	   left: 90%;
+@media screen and (max-width: 800px) {
+	.copyright{
+		position: absolute;
+		left: 45%;
+		right: -40%;
+		transform: translate(-50%, -50%);
+		margin-top: 100px;
+		text-align: center;
+
+	}
+	.copys p{
+		font-size: 14px;
+		
+
 	}
 }

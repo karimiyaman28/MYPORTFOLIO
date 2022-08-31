@@ -1,13 +1,4 @@
-
-
-
-var nav = document.querySelector("nav");
-window.addEventListener('scroll', function () {
-   if (window.pageYOffset > 100) {
-   	 nav.classList.add("bg-dark");
-
-   } else {
-   	nav.classList.remove('bg-dark');
-   }
-
+window.addEventListener('scroll', function() {
+  var navbar = document.querySelector('.navbar');
+  navbar.classList.toggle('sticky', window.scrollY > 0);
 });
