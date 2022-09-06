@@ -329,7 +329,7 @@ body{
 
 #arrown{
 	position: fixed;
-	right: 12px;
+	right: 10px;
 	bottom: 10px;
 	width: 44px;
 	height: 44px;
@@ -338,7 +338,6 @@ body{
 	background: #6210ff;
 	color: #ffff;
 	border-radius: 50%;
-	text-align: center;
 	cursor: pointer;
 }
 #arrown:active{
@@ -346,5 +345,6 @@ body{
 }
 
 .bi-arrow-up{
-	text-align: center;
+	float: left;
+	margin-left: 7px;
 }

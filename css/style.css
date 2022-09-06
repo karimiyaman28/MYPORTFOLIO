@@ -1242,7 +1242,7 @@ footer{
 }
 #arrowin{
 	position: fixed;
-	right: 12px;
+	right: 10px;
 	bottom: 10px;
 	width: 44px;
 	height: 44px;
@@ -1251,7 +1251,6 @@ footer{
 	background: #6210ff;
 	color: #ffff;
 	border-radius: 50%;
-	text-align: center;
 	cursor: pointer;
 }
 #arrowin:active{
@@ -1259,5 +1258,7 @@ footer{
 }
 
 .bi-arrow-up{
-	text-align: center;
+	
+	float: left;
+	margin-left: 9px;
 }
