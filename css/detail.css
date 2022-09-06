@@ -2,39 +2,37 @@ body{
 	background-color: #f5f5f5;
 	overflow-x: hidden;
 }
-@media screen and (max-width: 900px) {
-	body{
-		overflow-x: hidden;
 
-	}
-	.navbar{
-		overflow-x: hidden;
-	}
-}
+
+
+
+
 .navbar{
-	background: #6610f2;
+	background-color: #6610ff;
+	margin-top: 0px;
 }
 .header{
-	background:#6610f2;
+	background:#6610ff;
 	position: relative;
-	width: 100%;
-	height: 320px;
-	background-color: #6610f2;
-	overflow: hidden;
-	
+	height: 300px;
+	margin-top: 74px;
+
 }
- .mobile-nav-toggle {
-    color: #fff;
-    font-size: 30px;
+ .mobile-nav-toggles{
+  color: #fff;
+    font-size: 32px;
     cursor: pointer;
     display: none;
     line-height: 0;
-    float: right;
+    margin-right: -10px;
     overflow-x: hidden;
-    
-}
+    float: right;
+ }
+
 .navbar-nav .nav-item{
-	font-size: 19px;
+	font-size: 17px;
+	margin-top: 2px;
+	position: relative;
 }
 .navbar-toggler{
 	margin-right: 6px;
@@ -48,17 +46,46 @@ body{
 	
 }
 @media screen and (max-width: 900px) {
-	.header{
-		background-position: center;
-		height: 360px;
-	}
-	.mobile-nav-toggle{
+	  .mobile-nav-toggles{
 		display: block;
+		overflow-x: hidden;
+
+	}
+	.header{
+		height: 300px;
+		background-position: center;
+		position: relative;
+		margin-top: 56px;
 	}
 	.header h1{
 		margin-top: 80px;
 	}
+	
 }
+
+@media screen and (max-width: 900px) {
+	.container{
+		margin:0;
+		padding: 0;
+	}
+	body{
+		overflow-x: hidden;
+
+	}
+	.navbar{
+		overflow-x: hidden;
+	}
+
+	
+}
+
+
+
+
+
+
+
+
 .carousel-indicators button{
 	margin-top: 130px;
 	color: #000;
@@ -68,7 +95,7 @@ body{
 .carousel-item{
 	position: relative;
 	left: 0%;
-	margin-top: 56px;
+	margin-top: 60px;
 	
 }
  .img-fluid{
@@ -88,6 +115,7 @@ body{
     .carousel-item{
     	position: relative;
     	left: 4%;
+    	margin-top: 170px;
     }
     
    .carousel-indicators button{
@@ -135,8 +163,179 @@ body{
 .copyright{
    margin-top: 19px;
 }
-.back-top{
+.footerss{
+	width: 1560px;
+	height: 460px;
+	background-color: #333;
+	color: #fff;
+	z-index: 2;
 	position: relative;
-	margin-top: 13px;
-	color:#6610f2; 
+	left: -9%;
+	margin-top: 40px;
+}
+.foots{
+	position: relative;
+	z-index: 2;
+	margin-top: 60px;
+}
+
+.about-soc h4{
+	font-size: 19px;
+}
+.about-soc p{
+	line-height: 1.7em;
+}
+.icoss i{
+	margin-right: 3px;
+	font-size: 20px;
+}
+.navss{
+	position: relative;
+	left: 90%;
+}
+.navss li{
+	list-style: none;
+}
+.navss ul  a{
+    text-decoration: none;
+    color: #fff;
+    line-height: 2em;
+    margin-left: -10px;
+}
+.navss h4{
+	font-size: 19px;
+}
+.sorvices{
+	position: relative;
+	left: 270%;
+}
+.sorvices ul{
+	margin-left: -28px;
+	line-height: 2em;
+}
+.sorvices li{
+	list-style: none;
+}
+.sorvices a{
+	text-decoration: none;
+	color: #fff;
+}
+.sorvices h4{
+	font-size: 19px;
+}
+.contactss{
+	position: relative;
+	left: 123%;
+}
+.contactss h4{
+	font-size: 19px;
+}
+.infoss{
+	line-height: 2em;
+}
+
+@media screen and (max-width: 900px) {
+	.footerss{
+		width: 500px;
+	   height: 1190px;
+	   background-color: #333;
+	   color: #fff;
+	   z-index: 2;
+	   position: relative;
+	   left: 0%;
+	}
+	.foots .navss{
+	
+		position: relative;
+		margin-left: -440px;
+		margin-top: 50px;
+		
+	}
+	.navss h4{
+		font-size: 17px;
+	}
+	.foots .about-soc{
+		position: relative;
+       text-align: left;
+       margin-right: 60px;
+		
+	}
+	.about-soc h4{
+      font-size: 17px;
+      margin-left: 10px;
+    
+	}
+	.about-soc p{
+		margin-left: 10px;
+	}
+
+	.foots .sorvices {
+	    position: relative;
+	    margin-left: -1330px;
+		margin-top: 46px;
+
+	}
+	.sorvices h4{
+		font-size: 17px;
+	}
+	.connect{
+		
+		margin-top: 30px;
+
+	}
+	.connect h4{
+		font-size: 17px;
+	}
+	.about-soc .connect .icoss{
+		margin-left: 11px;
+	}
+	.foots .contactss{
+		position: relative;
+		left:4%;
+		margin-top: 45px;
+	}
+
+}
+.copyrights{
+	position: relative;
+	margin-top: 80px;
+	left: 33%;
+
+}
+.copyss p{
+	font-size: 15px;
+}
+
+@media screen and (max-width: 700px) {
+	.copyrights{
+		position: relative;
+		margin-right: 55px;
+		left: 0%;
+	
+		margin-top: 100px;
+		text-align: center;
+
+	}
+	.copyss p{
+		font-size: 14px;
+		
+
+	}
+}
+
+#arrown{
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+	width: 44px;
+	height: 44px;
+	border: none;
+	outline: none;
+	background: #6210ff;
+	color: #ffff;
+	border-radius: 50%;
+	cursor: pointer;
+}
+#arrown:active{
+	background-color: #6210ff;
 }

@@ -8,9 +8,7 @@ body{
 .navbar{
 	margin-top: 0;
 }
-#navbar.sticky{
-	background-color: #333;
-}
+
 .mobile-nav-toggle {
     color: #fff;
     font-size: 32px;
@@ -34,8 +32,7 @@ body{
 @media screen and (max-width: 900px) {
 	.mobile-nav-toggle{
 		display: block;
-		overflow-x: hidden;
-		float: right;
+		
 	}
 	
 }
@@ -87,7 +84,7 @@ body{
 }
 .image h6{
 	position: relative;
-	margin-top: 125px;
+	margin-top: 60px;
 	left: 1%;
 	z-index: 2;
 	color: yellow;
@@ -158,6 +155,9 @@ body{
 }
 
 	
+}
+.ben{
+	font-size: 18px;
 }
 
 .img-fluid{
@@ -1033,16 +1033,20 @@ body{
 }
 .social-ico ul{
 	list-style: none;
-	margin-left: 50px;
-	font-size: 25px;
+	margin-left: 53px;
+	font-size: 20px;
 	word-spacing: 5px;
+}
+.social-ico ul a{
+	text-decoration: none;
+	color: #000;
 }
 
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 800px) {
   .box-title .title-right{
       position: absolute;
-      top: 49%;
+      top: 48.5%;
       display: inline-block;
       left: 5%;
     
@@ -1088,7 +1092,6 @@ footer{
 .footers{
 	position: relative;
 	z-index: 2;
-	left: 0%;
 	margin-top: 60px;
 }
 .about-sec h4{
@@ -1149,44 +1152,62 @@ footer{
 @media screen and (max-width: 900px) {
 	footer{
 		width: 500px;
-	   height: 1130px;
+	   height: 1190px;
 	   background-color: #333;
 	   color: #fff;
 	   z-index: 2;
 	   position: relative;
 	   left: 0%;
 	}
-	.navs{
+	.footers .navs{
+	
 		position: relative;
-		left: 3%;
-		margin-top: 30px;
+		margin-left: -440px;
+		margin-top: 50px;
+		
 	}
 	.navs h4{
 		font-size: 17px;
 	}
-	.about-sec{
-		margin-left: 18px;
+	.footers .about-sec{
+		position: relative;
+       text-align: left;
+       margin-right: 60px;
+		
 	}
 	.about-sec h4{
       font-size: 17px;
+      margin-left: 10px;
+    
+	}
+	.about-sec p{
+		margin-left: 10px;
 	}
 
-	.sorvice {
-		position: relative;
-		left:3.6%;
-		margin-top: 30px;
+	.footers .sorvice {
+	    position: relative;
+	    margin-left: -1330px;
+		margin-top: 46px;
 
 	}
 	.sorvice h4{
 		font-size: 17px;
 	}
-	.contacts{
-		position: relative;
-		left: 3%;
+	.connects{
+		
 		margin-top: 30px;
+
 	}
-	.contacts h4{
+	.connects h4{
 		font-size: 17px;
+	}
+	.about-sec .connects .icos{
+		margin-left: 11px;
+	}
+	.footers .contacts{
+		position: relative;
+		left: 4%;
+		margin-top: 45px;
 	}
 
 }
@@ -1194,18 +1215,18 @@ footer{
 .copyright{
 	position: relative;
 	margin-top: 80px;
-	left: 28%;
+	left: 37%;
 
 }
 .copys p{
 	font-size: 15px;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
 	.copyright{
-		position: absolute;
-		left: 45%;
-		right: -40%;
-		transform: translate(-50%, -50%);
+		position: relative;
+		margin-right: 55px;
+		left: 0%;
+	
 		margin-top: 100px;
 		text-align: center;
 
@@ -1215,4 +1236,20 @@ footer{
 		
 
 	}
+}
+#arrowin{
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+	width: 44px;
+	height: 44px;
+	border: none;
+	outline: none;
+	background: #6210ff;
+	color: #ffff;
+	border-radius: 50%;
+	cursor: pointer;
+}
+#arrowin:active{
+	background-color: #6210ff;
 }
