@@ -24,9 +24,13 @@ body{
     cursor: pointer;
     display: none;
     line-height: 0;
-    margin-right: -10px;
+    margin-right: -5px;
     overflow-x: hidden;
     float: right;
+ }
+ .navbar-toggler{
+ 	outline: none;
+ 	border: none;
  }
 
 .navbar-nav .nav-item{
@@ -327,8 +331,8 @@ body{
 	position: fixed;
 	right: 10px;
 	bottom: 10px;
-	width: 44px;
-	height: 44px;
+	width: 38px;
+	height: 38px;
 	border: none;
 	outline: none;
 	background: #6210ff;
@@ -338,4 +342,8 @@ body{
 }
 #arrown:active{
 	background-color: #6210ff;
+}
+
+.bi-arrow-up{
+	margin-right: 1.6px;
 }
