@@ -24,7 +24,7 @@ body{
 	border: none;
 }
 #logo{
-	margin-top:4px;
+	margin-top: 2px;
 
 }
 
@@ -1244,8 +1244,8 @@ footer{
 	position: fixed;
 	right: 10px;
 	bottom: 10px;
-	width: 44px;
-	height: 44px;
+	width: 40px;
+	height: 40px;
 	border: none;
 	outline: none;
 	background: #6210ff;
@@ -1258,7 +1258,6 @@ footer{
 }
 
 .bi-arrow-up{
-	
-	float: left;
-	margin-left: 8px;
+	text-align: center;
+	margin-right: -1px;
 }
